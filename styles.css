@@ -1,0 +1,55 @@
+body{
+  margin: 0 0 0 0;
+}
+header h1 {
+  margin-top:0;
+  background-color:rgb(252, 227, 227);
+  text-align: center;
+  font-size: 45px;
+
+}
+
+main h1 {
+  text-align: center;
+  height:380px;
+  line-height: 380px;
+  font-size: 50px;
+  transition: 0.8s;
+}
+
+section {
+  display: flex;
+}
+p {
+  background-color:rgb(252, 227, 227) ;
+  border-style: solid;
+  border-color: rgb(48, 45, 45);
+  border-width: 4px;
+  width: calc(100%/3);
+  height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  user-select: none;
+  margin: 0 3px 0 3px;
+  text-align: center;
+  box-shadow:0 7px 0 rgb(15, 15, 15);
+}
+p:hover {
+  opacity: 0.6;
+}
+p:active{
+  margin-top: 5px;
+  box-shadow: 0 2px 0 rgb(15, 15, 15);
+}
+.kachi{
+  color:rgb(243, 18, 18);
+  font-size: 80px;
+}
+.make{
+  color: rgb(73, 73, 126);
+  font-size: 47px;
+}
+.aiko{
+  color: rgb(63, 61, 61);
+  font-size: 47px;
+}
