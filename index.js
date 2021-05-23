@@ -5,23 +5,26 @@ const pa= document.getElementById('3');
 const mnt= document.getElementById('0');
 
 const psb =['グー！！','チョキ！！','パー！！'];
-const n = Math.floor(Math.random()*psb.length); //n=0がグー、1がチョキ、2がパー
-const dst =psb[n];
+n = Math.floor(Math.random()*psb.length); //n=0がグー、1がチョキ、2がパー
+dst =psb[n];
 
 function restart1(){
   mnt.classList.remove('aiko');
   mnt.textContent='あいこで...';
-  const dst = psb[Math.floor(Math.random()*psb.length)];
+  n = Math.floor(Math.random()*psb.length);
+  dst = psb[n];
 }
 function restart2(){
   mnt.classList.remove('kachi');
   mnt.textContent='じゃんけん...';
-  const dst = psb[Math.floor(Math.random()*psb.length)];
+  n = Math.floor(Math.random()*psb.length);
+  dst = psb[n];
 }
 function restart3(){
   mnt.classList.remove('make');
   mnt.textContent='じゃんけん...';
-  const dst = psb[Math.floor(Math.random()*psb.length)];
+  n = Math.floor(Math.random()*psb.length);
+  dst = psb[n];
 }
 
 
